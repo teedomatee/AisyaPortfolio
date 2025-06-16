@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aisya's Documentation</title>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+   <!-- decor -->
+
+    <div class="glow-circle top-left"></div>
+    <div class="glow-circle bottom-right"></div>
+    <div class="glow-circle top-right"></div>
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <div id="navbar__logo">
+                    <img src="images/logo-default.png" alt="Logo" id="logo-img"/>
+                </div>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/index.html" class="navbar__link">ABOUT ME</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/projectdoc.html" class="navbar__link">PROJECT DOC</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Everything is one whole Section and collapsible-->
+
+        <div class="project">
+            <div class="project__container">
+                <h1>Project Documentation</h1>
+                <p>Below you can find a simple documentation to some of my previous projects. You can  find information about tools/language that I use, link to references, as well as general info about the project features. If  you have any additional questions, feel free to email to <a href="mailto:aisyaina02@gmail.com"><b>aisyaina02@gmail.com</b></a> for clarification.</p>
+            
+            <div class="project-list">
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-info">
+                            <h2>My Portfolio Website – Yep, this website!</h2>
+                            <p class="project-tags">#Figma #CSS #HTML #Javascript #ADDIEMethodology</p>
+                        </div>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="project-details">
+                        <ol>
+                        <li>Analyse
+                            <p>So, the project starts with me thinking 'Oh, I want to create a personal portfolio to showcase my projects and resume'. The idea at this point is hazy at best, but after referencing several portfolio site, I thought about putting my face in the site, Image carousel and a Project Page. Everything else is just add ons.</p>
+                        </li>
+                            <li>Design</li>
+                            <p>The wireframe, design is made in figma, solidifies my idea durther. it may not look That similar to the end product but what's a little difference here and there in personal project, right? The main accent of the website is my favourite colour green and complemented by the colour of salmon red since it complements the light teal so good.</p>
+                            <img src="images/figma1.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                            <p>I think it's cute to include a logo too, at first I want it drawn but I simple shapes suits the website more, and made these in Figma. If you hover the icon on top of the website page , The skull will peek at you, try it right now! The skull is also the favicon of the site.</p>
+                        <li>Development</li>
+                            <p>I used HTML, CSS and JavaScript in VSCode. There's several features that struck as my favourite in this; First of all, something about the colour choices complimenting the green really scratch an itch and I'm really happy how the overall look turns out.</p>
+                            <img src="images/gif1.gif" style="display: block; margin: 0 auto; width: 30%; max-width: 600px;" />
+                            <p>Of course, the image carousel, I'm a bit dissatisfied since I can't figured out how it can turn seamlessly, but overall I'm happy to learn how to create one that I can put my art no matter what size they are.</p>
+                            <img src="images/gif2.gif" style="display: block; margin: 0 auto; width: 40%; max-width: 600px;" />
+                            <p>Another favourite is the snap to each section *cheff kiss*.</p>
+                            <img src="images/gif3.gif" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <li>Implementation</li>
+                            <p>I push the site live on GitHub Pages and I include the link in the resume.</p>
+                        <li>Evaluation</li>
+                            <p>Asked my roommate for improvement, they gave a feedback to create a version for mobile browser too, which I will definetely do later! Thank you Aisy!</p>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-info">
+                            <h2>The Ripe Pick – A mobile application to evaluate fruit ripeness</h2>
+                            <p class="project-tags">#CNN #DeepLearning #Jupyter #MobileApp #API #GoogleCloud #AgileMethodology #Figma #AndroidStudio #RESTFULAPI</p>
+                        </div>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="project-details">
+                        <ol>
+                        <li>Concept Phase</li>
+                            <p>This is my Final Year Project and I will explain Very very briefly since it can get pretty long if I get into the thick of it. After doing literature review of real life problems. I land on interesting topic of food waste, or more specifically, fruit waste. People tends to get rid of fruit for cosmetic imperfections as they mistook it for ripening, in field traditional assessment also can prone to human error. On this topic, I will created a CNN model that accessible to their phone to help this problem.</p>
+                        <li>Inception Phase</li>
+                            <p>I plan out software and hardware requirements.The datasets is scraped form the web and taken from sites like kaggle and roboflow. I used 3000 images to assess ripeness of banana, mango and papaya. I was targetting the local fruits, however I can only limit to these three due to time and money constraints. Low fidelity storyboard was also created and a flowchart to make the idea more clearer</p>
+                            <img src="images/fyp1.png" style="display: block; margin: 0 auto; width: 40%; max-width: 600px;" />
+                        <li>Iteration Phase</li>
+                            <p>I sectioned my works in multiple sprints, First building and train the model in Jupyter. After crashing for at least 3 times between it's epoch, the model is loaded and achieve 80%+ (84%) accuracy</p>
+                            <img src="images/fyp2.png" style="display: block; margin: 0 auto; width: 30%; max-width: 600px;" />
+                            <img src="images/fyp4.png" style="display: block; margin: 0 auto; width: 30%; max-width: 600px;" />
+                            <p>Then I use REST API to deploy the server on Google Cloud Server. This is later check with POSTMAN to check if the predict() is working</p>
+                            <img src="images/fyp5.png" style="display: block; margin: 0 auto; width: 40%; max-width: 600px;" />
+                            <img src="images/fyp6.png" style="display: block; margin: 0 auto; width: 40%; max-width: 600px;" />
+                            <p>Lastly, the development of mobile app, the framework is mcreated on figma, and the development is made in Android Studio (java)</p>
+                            <img src="images/fyp7.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <li>Testing Phase</li>
+                            <p>System Usability Scale (SUS) Questionnaire is used to get evaluation from the Target User which is 15 everyday consumers, 10 vendors and 10 growers. I will post the data anaysris of testing after I finish conducting it</p>
+                        <li>Release Phase</li>
+                            <p>This is a Final Year Project and belongs to UiTM and won't be released, the cycle stops here.</p>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-info">
+                            <h2>Bonfire Camp Management System</h2>
+                            <p class="project-tags">#GroupProject #3wayUser #DatabaseManagement #ClassDiagram #SequenceDiagram</p>
+                        </div>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="project-details">
+                        <p>Bonfire Camp Management is an elaborate system, it was born from 4 people overly ambitious with their class projects. Shoutout to my friend Syafiqah who is the backbone of this project and manage to make it happen.</p>
+                        <img src="images/bonfire1.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <img src="images/bonfire3.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <p>The system manage 3 users interact with the database. The users will log in with unique id and the system will recognize and give access whethere its a camper, campsite manager or database admin as shown in sequence diagram.</p>
+                        <img src="images/bonfire2.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <p>To put it simply, in this site, admin can manage the system by adding, deleting and edit records on the registered company and customers. </p>
+                        <img src="images/bonfire4.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <p>The camper can search up available sites and reserve</p>
+                        <img src="images/bonfire5.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                        <p>The camp company can check their campsite, number of reservation and their total earnings</p>
+                        <img src="images/bonfire6.png" style="display: block; margin: 0 auto; width: 50%; max-width: 600px;" />
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-info">
+                            <h2>Multimedia Courseware (To be added...)</h2>
+                            <p class="project-tags">#IWillAddMoreToThis #Trust #WhenImDonewithFYP</p>
+                        </div>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <footer>
+            <p>Website last Updated : June 2025</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
